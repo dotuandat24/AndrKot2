@@ -51,6 +51,8 @@ fun main() {
     }while (i < 10)
     //println(nhanvien1.toString())
     //println("ten nhan vien: ${nhanvien1.Ten}, ; Nam sinh:${nhanvien1.NamSinh}")
+
+    println(funMemoNewBranch())
 }
 
 fun sum(a : Int, b: Int):Int{
@@ -72,3 +74,7 @@ fun doSomethings(input: Any){
 
 //class data
 data class NhanVien(val Ten:String ,val NamSinh:Int)
+
+fun funMemoNewBranch(){
+    println("new branch with name : 20220709")
+}
